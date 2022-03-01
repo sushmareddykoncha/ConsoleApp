@@ -63,7 +63,7 @@ namespace ConsoleApp2
             Console.WriteLine("salary=" + salary);
             Console.ReadLine();
 
-            //looping//
+            
         }
     }
 }
