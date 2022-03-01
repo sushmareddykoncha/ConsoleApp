@@ -62,6 +62,8 @@ namespace ConsoleApp2
             Console.WriteLine("age=" + age);
             Console.WriteLine("salary=" + salary);
             Console.ReadLine();
+
+            //looping//
         }
     }
 }
