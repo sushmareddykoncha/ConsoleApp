@@ -10,7 +10,7 @@ namespace ConsoleApp2
     {
        static void Main(string[] args)
         {
-            //loping//
+            //looping//
                 Console.WriteLine("Calculator");
                 Console.WriteLine("1.Add");
                 Console.WriteLine("2.Substract");
@@ -22,28 +22,28 @@ namespace ConsoleApp2
                 switch (ch)
                 {
                     case 1:
-                        Console.Write("Enter A,B:");
+                        Console.Write("Enter A & B:");
                         a = Convert.ToInt32(Console.ReadLine());
                         b = Convert.ToInt32(Console.ReadLine());
                         c = a + b;
                         Console.WriteLine("Sum = {0}", c);
                         break;
                     case 2:
-                        Console.Write("Enter A,B:");
+                        Console.Write("Enter A & B:");
                         a = Convert.ToInt32(Console.ReadLine());
                         b = Convert.ToInt32(Console.ReadLine());
                         c = a - b;
                         Console.WriteLine("Difference = {0}", c);
                         break;
                     case 3:
-                        Console.Write("Enter A,B:");
+                        Console.Write("Enter A & B:");
                         a = Convert.ToInt32(Console.ReadLine());
                         b = Convert.ToInt32(Console.ReadLine());
                         c = a * b;
                         Console.WriteLine("Product = {0}", c);
                         break;
                     case 4:
-                        Console.Write("Enter A,B:");
+                        Console.Write("Enter A & B:");
                         a = Convert.ToInt32(Console.ReadLine());
                         b = Convert.ToInt32(Console.ReadLine());
                         c = a / b;
@@ -59,13 +59,13 @@ namespace ConsoleApp2
             //calculate the sum of n natural numbers
 
             int i, sum = 0, n;
-            Console.WriteLine("enter the Nth numbers");
+            Console.WriteLine("Enter the N");
             n = int.Parse(Console.ReadLine());
             for(i=0; i<n; i++)
             {
                 sum = sum + i;
             }
-            Console.WriteLine("sum of n numbers:" + sum);
+            Console.WriteLine("Sum of N numbers:" + sum);
             Console.ReadLine();
         }
     }
