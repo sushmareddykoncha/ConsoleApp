@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp2.Arrays</StartupObject>
+    <StartupObject>ConsoleApp2.Collectionarraylist</StartupObject>
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup />
@@ -48,9 +48,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="arraymethods.cs" />
     <Compile Include="Arrays.cs" />
+    <Compile Include="Collectionarraylist.cs" />
+    <Compile Include="jaggedarray.cs" />
+    <Compile Include="jaggedarray2d.cs" />
     <Compile Include="Looping.cs" />
+    <Compile Include="paramaray.cs" />
     <Compile Include="passby.cs" />
+    <Compile Include="passing an array.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
