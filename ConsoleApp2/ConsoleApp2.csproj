@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp2.Collectionarraylist</StartupObject>
+    <StartupObject>ConsoleApp2.Dictionary</StartupObject>
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup />
@@ -51,6 +51,7 @@
     <Compile Include="arraymethods.cs" />
     <Compile Include="Arrays.cs" />
     <Compile Include="Collectionarraylist.cs" />
+    <Compile Include="Dictionary.cs" />
     <Compile Include="jaggedarray.cs" />
     <Compile Include="jaggedarray2d.cs" />
     <Compile Include="Looping.cs" />
