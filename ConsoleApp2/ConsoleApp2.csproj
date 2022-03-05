@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp2.Dictionary</StartupObject>
+    <StartupObject>ConsoleApp2.NullableTypes</StartupObject>
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup />
@@ -48,10 +48,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccessSpecifiers.cs" />
     <Compile Include="arraymethods.cs" />
     <Compile Include="Arrays.cs" />
     <Compile Include="Collectionarraylist.cs" />
+    <Compile Include="Constructor.cs" />
+    <Compile Include="destructors.cs" />
     <Compile Include="Dictionary.cs" />
+    <Compile Include="NullableTypes.cs" />
+    <Compile Include="Struct.cs" />
+    <Compile Include="Generics.cs" />
     <Compile Include="jaggedarray.cs" />
     <Compile Include="jaggedarray2d.cs" />
     <Compile Include="Looping.cs" />
