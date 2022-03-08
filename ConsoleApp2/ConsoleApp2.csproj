@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp2.NullableTypes</StartupObject>
+    <StartupObject>ConsoleApp2.InterfaceExample.Program</StartupObject>
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup />
@@ -48,6 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractClasses.cs" />
     <Compile Include="AccessSpecifiers.cs" />
     <Compile Include="arraymethods.cs" />
     <Compile Include="Arrays.cs" />
@@ -55,6 +56,7 @@
     <Compile Include="Constructor.cs" />
     <Compile Include="destructors.cs" />
     <Compile Include="Dictionary.cs" />
+    <Compile Include="InterfaceExample.cs" />
     <Compile Include="NullableTypes.cs" />
     <Compile Include="Struct.cs" />
     <Compile Include="Generics.cs" />
